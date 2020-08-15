@@ -97,7 +97,7 @@ ulFiltros.addEventListener( 'click', ( event ) => {
 
     if ( !filtro ) return;
 
-    anchorFiltros.forEach( elem => elem.classList.removeS( 'selected' ));
+    anchorFiltros.forEach( elem => elem.classList.remove( 'selected' ));
 
     // Se pone el cuadrito sobre el texto del anchorTag.
     event.target.classList.add('selected');
